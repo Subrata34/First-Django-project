@@ -13,4 +13,6 @@ def Login(request):
 def about(request):
     #return HttpResponse("this is about")
     return render(request,'about.html')
+
+
     
